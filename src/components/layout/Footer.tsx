@@ -105,10 +105,12 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-
-        <div className="border-t border-gray-200 pt-6 text-center text-gray-500 text-sm">
+        <Link
+          href="https://linktr.ee/BharatGen"
+          className="border-t border-gray-200 pt-6 text-center text-gray-500 text-sm"
+        >
           <p>Developed with ❤️ by BharatGen </p>
-        </div>
+        </Link>
       </div>
     </footer>
   );
