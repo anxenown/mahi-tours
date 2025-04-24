@@ -20,7 +20,7 @@ const Footer = () => {
 
             <div className="flex space-x-4">
               <Link
-                href="https://wa.me/+919198742110"
+                href="https://api.whatsapp.com/send?phone=919198742110&text=Hi%20I%20Have%20an%20enquiry"
                 className="text-gray-500 hover:text-primary transition-colors"
                 aria-label="WhatsApp"
               >

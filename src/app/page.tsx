@@ -32,7 +32,7 @@ export default function Home() {
                 Packages
               </Button>
             </Link>
-            <Link href="https://wa.me/+919198742110">
+            <Link href="https://api.whatsapp.com/send?phone=919198742110&text=Hi%20I%20Have%20an%20enquiry">
               <Button
                 variant="outline"
                 className="text-green-600 hover:text-primary transition-colors"

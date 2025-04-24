@@ -98,7 +98,7 @@ export default function ContactPage() {
 
                 <div className="flex items-start space-x-4">
                   <Link
-                    href="https://wa.me/+919198742110"
+                    href="https://api.whatsapp.com/send?phone=919198742110&text=Hi%20I%20Have%20an%20enquiry"
                     className="bg-primary/10 p-3 rounded-full text-primary"
                   >
                     <FaWhatsapp size={24} />
@@ -203,7 +203,7 @@ export default function ContactPage() {
         <div className="container mx-auto">
           <div className="h-96 w-full bg-gray-300">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.3416726144133!2d82.98650567455732!3d25.326313377628065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2de115fef8b9%3A0xe6a97fe86673bc03!2s49%2C%20Parade%20Kothi%20Rd%2C%20Pared%20Kothi%2C%20Vijay%20Nagar%20Colony%2C%20Chetganj%2C%20Varanasi%2C%20Uttar%20Pradesh%20221002!5e0!3m2!1sen!2sin!4v1745454087148!5m2!1sen!2sin" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.3416726144133!2d82.98650567455732!3d25.326313377628065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2de115fef8b9%3A0xe6a97fe86673bc03!2s49%2C%20Parade%20Kothi%20Rd%2C%20Pared%20Kothi%2C%20Vijay%20Nagar%20Colony%2C%20Chetganj%2C%20Varanasi%2C%20Uttar%20Pradesh%20221002!5e0!3m2!1sen!2sin!4v1745454087148!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
