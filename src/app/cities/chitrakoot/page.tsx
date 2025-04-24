@@ -8,25 +8,25 @@ export default function ChitrakootTrip() {
     <div>
       <main className="bg-white text-black p-8">
         <header></header>
-
-        <h1 className="text-center text-4xl font-bold mb-4">Chitrakoot Trip</h1>
-        <div className="flex justify-center space-x-4 mb-4">
-          <button className="bg-black text-white py-2 px-4 rounded">
-            Location: Chitrakoot
-          </button>
-          <button className="bg-black text-white py-2 px-4 rounded">
-            Duration: 2 Days
-          </button>
-          <button className="bg-black text-white py-2 px-4 rounded">
-            Affordable Price
-          </button>
-          <Link href="/contact">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">
-              CONTACT NOW
+        <center>
+          <h1 className="text-center text-4xl font-bold mb-4">Chitrakoot Trip</h1>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <button className="bg-black text-white py-2 px-2 rounded">
+              Location: Chitrakoot
             </button>
-          </Link>
-        </div>
-
+            <button className="bg-black text-white py-2 px-2 rounded">
+              Duration: 2 Days
+            </button>
+            <button className="bg-black text-white py-2 px-2 rounded">
+              Affordable Price
+            </button>
+            <Link href="/contact">
+              <button className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">
+                CONTACT NOW
+              </button>
+            </Link>
+          </div>
+        </center>
         <div className="flex space-x-8 mt-12">
           <div className="w-1/3 h-full">
             <img
@@ -120,7 +120,8 @@ export default function ChitrakootTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://cms.patrika.com/wp-content/uploads/2020/02/03/chitrakoot3_5724304-m.jpg"    alt="Hanuman Dhara"
+                src="https://cms.patrika.com/wp-content/uploads/2020/02/03/chitrakoot3_5724304-m.jpg"
+                alt="Hanuman Dhara"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -134,7 +135,8 @@ export default function ChitrakootTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://cdn1.prayagsamagam.com/media/2023/05/12200021/Janki-kund-chitrakoot-2.webp"      alt="Janaki Kund"
+                src="https://cdn1.prayagsamagam.com/media/2023/05/12200021/Janki-kund-chitrakoot-2.webp"
+                alt="Janaki Kund"
                 className="mb-4"
                 width="300"
                 height="200"

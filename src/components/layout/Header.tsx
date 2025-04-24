@@ -143,9 +143,11 @@ const Header = () => {
             >
               Contact
             </Link>
-            <Button className="w-full mt-2 bg-primary hover:bg-primary/90">
-              TAKE ACTION
-            </Button>
+            <Link href="/contact">
+              <Button className="w-full mt-2 bg-primary hover:bg-primary/90">
+                TAKE ACTION
+              </Button>
+            </Link>
           </nav>
         </div>
       )}

@@ -8,25 +8,25 @@ export default function LucknowTrip() {
     <div>
       <main className="bg-white text-black p-8">
         <header></header>
-
-        <h1 className="text-center text-4xl font-bold mb-4">Lucknow Trip</h1>
-        <div className="flex justify-center space-x-4 mb-4">
-          <button className="bg-black text-white py-2 px-4 rounded">
-            Location: Lucknow
-          </button>
-          <button className="bg-black text-white py-2 px-4 rounded">
-            Duration: 2 Days
-          </button>
-          <button className="bg-black text-white py-2 px-4 rounded">
-            Affordable Price
-          </button>
-          <Link href="/contact">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">
-              CONTACT NOW
+        <center>
+          <h1 className="text-center text-4xl font-bold mb-4">Lucknow Trip</h1>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <button className="bg-black text-white py-2 px-2 rounded">
+              Location: Lucknow
             </button>
-          </Link>
-        </div>
-
+            <button className="bg-black text-white py-2 px-2 rounded">
+              Duration: 2 Days
+            </button>
+            <button className="bg-black text-white py-2 px-2 rounded">
+              Affordable Price
+            </button>
+            <Link href="/contact">
+              <button className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">
+                CONTACT NOW
+              </button>
+            </Link>
+          </div>
+        </center>
         <div className="flex space-x-8 mt-12">
           <div className="w-1/3 h-full">
             <img
@@ -62,7 +62,8 @@ export default function LucknowTrip() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="border rounded-lg p-4">
               <img
-                src="https://static.toiimg.com/photo/103890972.cms"     alt="Bara Imambara"
+                src="https://static.toiimg.com/photo/103890972.cms"
+                alt="Bara Imambara"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -76,7 +77,8 @@ export default function LucknowTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://i.pinimg.com/736x/db/d0/e2/dbd0e22cb13b247990357f7eb20bb735.jpg"  alt="Hanumant Dham"
+                src="https://i.pinimg.com/736x/db/d0/e2/dbd0e22cb13b247990357f7eb20bb735.jpg"
+                alt="Hanumant Dham"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -90,7 +92,8 @@ export default function LucknowTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNtcvZOJu6Epa-U7LhW0aFHy4fYx4FPgMwvQ&s"    alt="Ambedkar Memorial Park"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNtcvZOJu6Epa-U7LhW0aFHy4fYx4FPgMwvQ&s"
+                alt="Ambedkar Memorial Park"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -104,7 +107,8 @@ export default function LucknowTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEar9SL3qXtKX_U3djr585aWED0KU22hoTRg&s"         alt="Janeshwar Mishra Park"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEar9SL3qXtKX_U3djr585aWED0KU22hoTRg&s"
+                alt="Janeshwar Mishra Park"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -117,7 +121,8 @@ export default function LucknowTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://staticimg.amarujala.com/assets/images/2023/08/15/street-food_1692098934.jpeg?w=414&dpr=1.0&q=80"        alt="Chatori Gali"
+                src="https://staticimg.amarujala.com/assets/images/2023/08/15/street-food_1692098934.jpeg?w=414&dpr=1.0&q=80"
+                alt="Chatori Gali"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -131,7 +136,8 @@ export default function LucknowTrip() {
 
             <div className="border rounded-lg p-4">
               <img
-                src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/5b/24/de/a-heritage-building-in.jpg?w=1200&h=-1&s=1"     alt="Aminabad Market"
+                src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/5b/24/de/a-heritage-building-in.jpg?w=1200&h=-1&s=1"
+                alt="Aminabad Market"
                 className="mb-4"
                 width="300"
                 height="200"

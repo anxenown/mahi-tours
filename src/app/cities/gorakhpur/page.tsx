@@ -8,25 +8,25 @@ export default function GorakhpurTrip() {
     <div>
       <main className="bg-white text-black p-8">
         <header></header>
-
-        <h1 className="text-center text-4xl font-bold mb-4">Gorakhpur Trip</h1>
-        <div className="flex justify-center space-x-4 mb-4">
-          <button className="bg-black text-white py-2 px-4 rounded">
-            Location: Gorakhpur
-          </button>
-          <button className="bg-black text-white py-2 px-4 rounded">
-            Duration: 2 Days
-          </button>
-          <button className="bg-black text-white py-2 px-4 rounded">
-            Affordable Price
-          </button>
-          <Link href="/contact">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">
-              CONTACT NOW
+        <center>
+          <h1 className="text-center text-4xl font-bold mb-4">Gorakhpur Trip</h1>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <button className="bg-black text-white py-2 px-2 rounded">
+              Location: Gorakhpur
             </button>
-          </Link>
-        </div>
-
+            <button className="bg-black text-white py-2 px-2 rounded">
+              Duration: 2 Days
+            </button>
+            <button className="bg-black text-white py-2 px-2 rounded">
+              Affordable Price
+            </button>
+            <Link href="/contact">
+              <button className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">
+                CONTACT NOW
+              </button>
+            </Link>
+          </div>
+        </center>
         <div className="flex space-x-8 mt-12">
           <div className="w-1/3 h-full">
             <img
@@ -60,7 +60,8 @@ export default function GorakhpurTrip() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="border rounded-lg p-4">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/9/91/Gorakhnath_Mandir_in_nutshell.jpg"     alt="Gorakhnath Temple"
+                src="https://upload.wikimedia.org/wikipedia/commons/9/91/Gorakhnath_Mandir_in_nutshell.jpg"
+                alt="Gorakhnath Temple"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -74,7 +75,8 @@ export default function GorakhpurTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://images.indianexpress.com/2023/06/gate21644394027-2.jpg"       alt="Geeta Press"
+                src="https://images.indianexpress.com/2023/06/gate21644394027-2.jpg"
+                alt="Geeta Press"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -88,7 +90,8 @@ export default function GorakhpurTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://www.jagranimages.com/images/newimg/20062022/20_06_2022-vishunu_mandir_22817840.jpg"      alt="Vishnu Temple"
+                src="https://www.jagranimages.com/images/newimg/20062022/20_06_2022-vishunu_mandir_22817840.jpg"
+                alt="Vishnu Temple"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -101,7 +104,8 @@ export default function GorakhpurTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDr1__rbzDH3bKTxME5mU8y15ws6GMsJoiIw&s"         alt="Arogya Mandir"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDr1__rbzDH3bKTxME5mU8y15ws6GMsJoiIw&s"
+                alt="Arogya Mandir"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -115,7 +119,8 @@ export default function GorakhpurTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://staticimg.amarujala.com/assets/images/2020/09/25/ramgarh-taal_1601017393.jpeg?w=750"        alt="Ramgarh Taal (Lake)"
+                src="https://staticimg.amarujala.com/assets/images/2020/09/25/ramgarh-taal_1601017393.jpeg?w=750"
+                alt="Ramgarh Taal (Lake)"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -129,7 +134,8 @@ export default function GorakhpurTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB8_qt3Gix4xH3c2PDtr2CQxJ2PINrCXcH1A&s"        alt="Golghar Market"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB8_qt3Gix4xH3c2PDtr2CQxJ2PINrCXcH1A&s"
+                alt="Golghar Market"
                 className="mb-4"
                 width="300"
                 height="200"

@@ -8,25 +8,25 @@ export default function MauTrip() {
     <div>
       <main className="bg-white text-black p-8">
         <header></header>
-
-        <h1 className="text-center text-4xl font-bold mb-4">Mau Trip</h1>
-        <div className="flex justify-center space-x-4 mb-4">
-          <button className="bg-black text-white py-2 px-4 rounded">
-            Location: Mau
-          </button>
-          <button className="bg-black text-white py-2 px-4 rounded">
-            Duration: 2 Days
-          </button>
-          <button className="bg-black text-white py-2 px-4 rounded">
-            Affordable Price
-          </button>
-          <Link href="/contact">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">
-              CONTACT NOW
+        <center>
+          <h1 className="text-center text-4xl font-bold mb-4">Mau Trip</h1>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <button className="bg-black text-white py-2 px-2 rounded">
+              Location: Mau
             </button>
-          </Link>
-        </div>
-
+            <button className="bg-black text-white py-2 px-2 rounded">
+              Duration: 2 Days
+            </button>
+            <button className="bg-black text-white py-2 px-2 rounded">
+              Affordable Price
+            </button>
+            <Link href="/contact">
+              <button className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">
+                CONTACT NOW
+              </button>
+            </Link>
+          </div>
+        </center>
         <div className="flex space-x-8 mt-12">
           <div className="w-1/3 h-full">
             <img
@@ -60,7 +60,8 @@ export default function MauTrip() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="border rounded-lg p-4">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8NmUHSpcSJ3TuDTxTXhHl-i-CoobEvTIyMO_kZdcqTYHO-KDvuzxYWRu80F0zAGS01A8&usqp=CAU"        alt="Sitla Mata Mandir"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8NmUHSpcSJ3TuDTxTXhHl-i-CoobEvTIyMO_kZdcqTYHO-KDvuzxYWRu80F0zAGS01A8&usqp=CAU"
+                alt="Sitla Mata Mandir"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -74,7 +75,8 @@ export default function MauTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://www.templepurohit.com/wp-content/uploads/2015/05/Kalkaji-Mandir-Kalka-Devi-temple-Delhi_TemplePurohit.jpg"           alt="Kalka Devi Mandir (Kalka Maa Temple)"
+                src="https://www.templepurohit.com/wp-content/uploads/2015/05/Kalkaji-Mandir-Kalka-Devi-temple-Delhi_TemplePurohit.jpg"
+                alt="Kalka Devi Mandir (Kalka Maa Temple)"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -90,7 +92,8 @@ export default function MauTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://images.bhaskarassets.com/web2images/521/2024/08/19/2232d898-11e7-422a-b4ec-dc1faa8b0555_1724010139189.jpg"        alt="Mahadev Mandir"
+                src="https://images.bhaskarassets.com/web2images/521/2024/08/19/2232d898-11e7-422a-b4ec-dc1faa8b0555_1724010139189.jpg"
+                alt="Mahadev Mandir"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -104,7 +107,8 @@ export default function MauTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://i.ytimg.com/vi/D4WZgXvWqcM/maxresdefault.jpg"         alt="Tamsa River Ghats"
+                src="https://i.ytimg.com/vi/D4WZgXvWqcM/maxresdefault.jpg"
+                alt="Tamsa River Ghats"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -118,7 +122,8 @@ export default function MauTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://content.jdmagicbox.com/comp/mau/q6/9999px547.x547.180118112833.u3q6/catalogue/mukti-dham-mau-parks-47zq2jc0yi.jpg"       alt="Company Garden (Town Park)"
+                src="https://content.jdmagicbox.com/comp/mau/q6/9999px547.x547.180118112833.u3q6/catalogue/mukti-dham-mau-parks-47zq2jc0yi.jpg"
+                alt="Company Garden (Town Park)"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -134,15 +139,16 @@ export default function MauTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://content.jdmagicbox.com/v2/comp/mau/w1/9999px547.x547.190617205653.q8w1/catalogue/jama-masjid-mirzahadipura-mau-mosques-gn3zmodlo0.jpg"      alt="Jamia Mosque"
+                src="https://content.jdmagicbox.com/v2/comp/mau/w1/9999px547.x547.190617205653.q8w1/catalogue/jama-masjid-mirzahadipura-mau-mosques-gn3zmodlo0.jpg"
+                alt="Jamia Mosque"
                 className="mb-4"
                 width="300"
                 height="200"
               />
               <h3 className="text-xl font-bold mb-2">Jamia Mosque</h3>
               <p>
-                One of the oldest mosques in Mau, showcasing
-                Islamic architecture. It serves as a major place of worship and
+                One of the oldest mosques in Mau, showcasing Islamic
+                architecture. It serves as a major place of worship and
                 community gathering for Muslims.
               </p>
             </div>
