@@ -244,7 +244,7 @@ export default function Home() {
             >
               <div className="relative h-64 overflow-hidden rounded-lg">
                 <Image
-                  src="https://www.captureatrip.com/_next/image?url=https%3A%2F%2Fcaptureatrip-cms-storage.s3.ap-south-1.amazonaws.com%2FVrindavan_3f5fcf83ef.webp&w=3840&q=50https://s7ap1.scene7.com/is/image/incredibleindia/kusum-sarovar-mathura-uttar-pradesh-2-atttr-hero?qlt=82&ts=1726649327431"
+                  src="https://wallpapercave.com/wp/wp9294585.jpg"
                   alt="Vrindavan"
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-110"

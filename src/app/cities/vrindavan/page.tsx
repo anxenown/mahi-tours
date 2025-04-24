@@ -30,7 +30,7 @@ export default function VrindavanTrip() {
         <div className="flex space-x-8 mt-12">
           <div className="w-1/3 h-full">
             <img
-              src="https://www.captureatrip.com/_next/image?url=https%3A%2F%2Fcaptureatrip-cms-storage.s3.ap-south-1.amazonaws.com%2FVrindavan_3f5fcf83ef.webp&w=3840&q=50https://s7ap1.scene7.com/is/image/incredibleindia/kusum-sarovar-mathura-uttar-pradesh-2-atttr-hero?qlt=82&ts=1726649327431"
+              src="https://wallpapercave.com/wp/wp9294585.jpg"
               alt="Group of people participating in a religious ceremony"
               className="mb-4"
               width="300"
@@ -62,7 +62,8 @@ export default function VrindavanTrip() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="border rounded-lg p-4">
               <img
-                src="https://www.bihariji.org/assets/img/biharijiTemple.jpeg"          alt="Banke Bihari Temple"
+                src="https://www.bihariji.org/assets/img/biharijiTemple.jpeg"
+                alt="Banke Bihari Temple"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -77,7 +78,8 @@ export default function VrindavanTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/8/8e/PremMandirSideViewFromCanteen.jpg"        alt="Prem Mandir"
+                src="https://upload.wikimedia.org/wikipedia/commons/8/8e/PremMandirSideViewFromCanteen.jpg"
+                alt="Prem Mandir"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -91,7 +93,8 @@ export default function VrindavanTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgsTSbsHt0DXzSFR5WMPyeTmJiT1Tp_w7FrA&s"      alt="Radha Raman Temple"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgsTSbsHt0DXzSFR5WMPyeTmJiT1Tp_w7FrA&s"
+                alt="Radha Raman Temple"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -105,7 +108,8 @@ export default function VrindavanTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://static.wixstatic.com/media/3ed1e1_5316b89149b744ff8e2a4f81a83e7792~mv2.jpg/v1/fill/w_640,h_484,al_c,lg_1,q_80,enc_avif,quality_auto/3ed1e1_5316b89149b744ff8e2a4f81a83e7792~mv2.jpg"      alt="Seva Kunj"
+                src="https://static.wixstatic.com/media/3ed1e1_5316b89149b744ff8e2a4f81a83e7792~mv2.jpg/v1/fill/w_640,h_484,al_c,lg_1,q_80,enc_avif,quality_auto/3ed1e1_5316b89149b744ff8e2a4f81a83e7792~mv2.jpg"
+                alt="Seva Kunj"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -119,7 +123,8 @@ export default function VrindavanTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://www.mathuravrindavantourpackages.com/images/temple/slider/nidhivan-temple-1.webp"       alt="Nidhivan"
+                src="https://www.mathuravrindavantourpackages.com/images/temple/slider/nidhivan-temple-1.webp"
+                alt="Nidhivan"
                 className="mb-4"
                 width="300"
                 height="200"
@@ -133,7 +138,8 @@ export default function VrindavanTrip() {
             </div>
             <div className="border rounded-lg p-4">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXzhYYl0NJ_zN7nYi74H66Law6G5dGJof6Vg&s"     alt="Vrindavan Chandrodaya Mandir"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXzhYYl0NJ_zN7nYi74H66Law6G5dGJof6Vg&s"
+                alt="Vrindavan Chandrodaya Mandir"
                 className="mb-4"
                 width="300"
                 height="200"
