@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuLink } from '@/components/ui/navigation-menu';
 import { cn } from '@/lib/utils';
 import MahiLogo from '@/components/MahiLogo';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -68,11 +69,26 @@ const Header = () => {
         </NavigationMenu>
 
         {/* Action Button */}
-        <Link href="/contact">
-          <Button className="hidden md:inline-flex bg-primary hover:bg-primary/90">
-            TAKE ACTION
-          </Button>
-        </Link>
+        <div className="flex items-center space-x-4">
+          <Link href="/contact">
+            <Button
+              className="hidden md:inline-flex bg-primary hover:bg-primary/90"
+              size="lg"
+            >
+              TAKE ACTION
+            </Button>
+          </Link>
+          <Link href="https://api.whatsapp.com/send?phone=919198742110&text=Hi%20I%20Have%20an%20enquiry">
+            <Button
+              variant="outline"
+              className="hidden md:inline-flex text-green-600 hover:text-primary transition-colors"
+              size="icon"
+              aria-label="WhatsApp"
+            >
+              <FaWhatsapp size={30} />
+            </Button>
+          </Link>
+        </div>
 
         {/* Mobile Menu Button */}
         <button
@@ -148,6 +164,19 @@ const Header = () => {
                 TAKE ACTION
               </Button>
             </Link>
+            <center>
+              {" "}
+              <Link href="https://api.whatsapp.com/send?phone=919198742110&text=Hi%20I%20Have%20an%20enquiry">
+                <Button
+                  variant="outline"
+                  className="text-green-600 hover:text-primary transition-colors"
+                  size="lg"
+                  aria-label="WhatsApp"
+                >
+                  <FaWhatsapp size={30} />
+                </Button>
+              </Link>
+            </center>
           </nav>
         </div>
       )}

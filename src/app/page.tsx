@@ -35,7 +35,7 @@ export default function Home() {
             <Link href="https://api.whatsapp.com/send?phone=919198742110&text=Hi%20I%20Have%20an%20enquiry">
               <Button
                 variant="outline"
-                className="text-green-600 hover:text-primary transition-colors"
+                className=" text-green-600 hover:text-primary transition-colors"
                 size="icon"
                 aria-label="WhatsApp"
               >
@@ -398,52 +398,52 @@ export default function Home() {
             {[
               {
                 name: "Maruti Suzuki Ertiga",
-                price: "16",
+                price: "16 ₹",
                 seats: "4 seater",
                 image:
                   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTKzYeFR2KdyV_5S7Retga6ee0ce-2gFRfBA&s",
-                details: ["Outstation Rs.17/Km"],
+                details: ["Outstation Rs.17 ₹/Km"],
               },
               {
                 name: "Swift Dzire",
-                price: "13",
+                price: "13 ₹",
                 seats: "4 seater",
                 image:
                   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJXFTEPpR6khLiYO3Ia802PjbqJWBZ_lQ8Qw&s",
-                details: ["Outstation Rs.14/Km"],
+                details: ["Outstation Rs.14 ₹/Km"],
               },
               {
                 name: "Innova Crysta",
-                price: "20",
+                price: "20 ₹",
                 seats: "6 seater",
                 image:
                   "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
-                details: ["Outstation Rs.21/Km"],
+                details: ["Outstation Rs.21 ₹/Km"],
               },
 
               {
                 name: "Luxury Tempo Traveller",
-                price: "20",
+                price: "28 ₹",
                 seats: "17-26 seater",
                 image:
                   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZR1KoDKnTUkwN3MWx1K6gLC4JYuKCOKh5ig&s",
-                details: ["Outstation Rs.21/Km"],
+                details: ["Outstation Rs.29 ₹/Km"],
               },
               {
                 name: "Bus",
-                price: "20",
+                price: "75 ₹",
                 seats: "30-40 seater",
                 image:
                   "https://buscdn.cardekho.com/in/ashok-leyland/oyster-tourist-bus/ashok-leyland-oyster-tourist-bus.jpg",
-                details: ["Outstation Rs.21/Km"],
+                details: ["Outstation Rs.76/Km"],
               },
               {
                 name: "Force Cruiser",
-                price: "18",
+                price: "18 ₹",
                 seats: "10-13 seater",
                 image:
                   "https://static.caronphone.com/public/brands/9/348/348.webp",
-                details: ["Outstation Rs.19/Km"],
+                details: ["Outstation Rs.19 ₹/Km"],
               },
             ].map((car, index) => (
               <Card key={index} className="overflow-hidden bg-white shadow-md">

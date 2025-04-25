@@ -89,8 +89,7 @@ export default function ToursPage() {
     {
       id: "vrindavan",
       name: "Vrindavan",
-      image:
-        "https://www.captureatrip.com/_next/image?url=https%3A%2F%2Fcaptureatrip-cms-storage.s3.ap-south-1.amazonaws.com%2FVrindavan_3f5fcf83ef.webp&w=3840&q=50https://s7ap1.scene7.com/is/image/incredibleindia/kusum-sarovar-mathura-uttar-pradesh-2-atttr-hero?qlt=82&ts=1726649327431",
+      image: "https://wallpapercave.com/wp/wp9294585.jpg",
       description:
         "Vrindavan is a holy town in Uttar Pradesh, northern India. The Hindu deity Krishna is said to have spent his childhood here. It’s home to temples, many dedicated to Krishna and his lover, the deity Radha. At Banke Bihari Temple, the curtain in front of Krishna’s statue is opened and closed every few minutes. At Radha Raman Temple, a gold plate beside Krishna signifies Radha. Prem Mandir is a huge white marble temple.",
     },
