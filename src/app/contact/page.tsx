@@ -13,7 +13,8 @@ export default function ContactPage() {
     name: "",
     email: "",
     phone: "",
-    subject: "",
+    fromDestination: "",
+    toDestination: "",
     message: "",
   });
   const [loading, setLoading] = useState(false);
@@ -29,7 +30,12 @@ export default function ContactPage() {
     e.preventDefault();
 
     // Form validation
-    if (!formData.name || !formData.email || !formData.subject) {
+    if (
+      !formData.name ||
+      !formData.email ||
+      !formData.fromDestination ||
+      !formData.toDestination
+    ) {
       toast.error("Please fill all required fields");
       return;
     }
@@ -38,7 +44,7 @@ export default function ContactPage() {
 
     try {
       // Send form data to Formspree
-      const response = await fetch("https://formspree.io/f/xblojnnz", {
+      const response = await fetch("https://formspree.io/f/manonwba", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -48,7 +54,8 @@ export default function ContactPage() {
           name: formData.name,
           email: formData.email,
           phone: formData.phone,
-          subject: formData.subject,
+          fromDestination: formData.fromDestination,
+          toDestination: formData.toDestination,
           message: formData.message,
         }),
       });
@@ -59,7 +66,8 @@ export default function ContactPage() {
           name: "",
           email: "",
           phone: "",
-          subject: "",
+          fromDestination: "",
+          toDestination: "",
           message: "",
         });
       } else {
@@ -202,15 +210,31 @@ export default function ContactPage() {
 
                 <div>
                   <label
-                    htmlFor="subject"
+                    htmlFor="fromDestination"
                     className="block text-sm font-medium text-gray-700 mb-1"
                   >
-                    Subject *
+                    From Destination *
                   </label>
                   <Input
-                    id="subject"
-                    name="subject"
-                    value={formData.subject}
+                    id="fromDestination"
+                    name="fromDestination"
+                    value={formData.fromDestination}
+                    onChange={handleChange}
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label
+                    htmlFor="toDestination"
+                    className="block text-sm font-medium text-gray-700 mb-1"
+                  >
+                    To Destination *
+                  </label>
+                  <Input
+                    id="toDestination"
+                    name="toDestination"
+                    value={formData.toDestination}
                     onChange={handleChange}
                     required
                   />
