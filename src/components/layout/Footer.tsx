@@ -91,7 +91,7 @@ const Footer = () => {
                   href="/contact"
                   className="text-gray-700 hover:text-primary transition-colors"
                 >
-                  Luxury Tempo Traveller
+                  Urbania Tempo Traveller
                 </Link>
               </li>
               <li>

@@ -399,7 +399,7 @@ export default function Home() {
               {
                 name: "Maruti Suzuki Ertiga",
                 price: "16 ₹",
-                seats: "4 seater",
+                seats: "6 seater",
                 image:
                   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTKzYeFR2KdyV_5S7Retga6ee0ce-2gFRfBA&s",
                 details: ["Outstation Rs.17 ₹/Km"],
@@ -422,11 +422,11 @@ export default function Home() {
               },
 
               {
-                name: "Luxury Tempo Traveller",
+                name: "Urbania Tempo Traveller",
                 price: "28 ₹",
                 seats: "17-26 seater",
                 image:
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZR1KoDKnTUkwN3MWx1K6gLC4JYuKCOKh5ig&s",
+                  "https://5.imimg.com/data5/ANDROID/Default/2024/9/454625205/ZO/VU/VP/91384426/product-jpeg-500x500.jpg",
                 details: ["Outstation Rs.29 ₹/Km"],
               },
               {
