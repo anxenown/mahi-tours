@@ -36,10 +36,10 @@ export default function Home() {
               <Button
                 variant="outline"
                 className=" text-green-600 hover:text-primary transition-colors"
-                size="icon"
+                size="lg"
                 aria-label="WhatsApp"
               >
-                <FaWhatsapp size={30} />
+                <FaWhatsapp size={30} /> WhatsApp
               </Button>
             </Link>
           </div>
