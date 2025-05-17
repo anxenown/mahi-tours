@@ -423,11 +423,11 @@ export default function Home() {
 
               {
                 name: "Urbania Tempo Traveller",
-                price: "28 ₹",
+                price: "36 ₹",
                 seats: "17-26 seater",
                 image:
-                  "https://5.imimg.com/data5/ANDROID/Default/2024/9/454625205/ZO/VU/VP/91384426/product-jpeg-500x500.jpg",
-                details: ["Outstation Rs.29 ₹/Km"],
+                  "https://th.bing.com/th/id/OIP.e23K8ZwqpLPF_C_7Ear6SgHaEH?rs=1&pid=ImgDetMain",
+                details: ["Outstation Rs.37 ₹/Km"],
               },
               {
                 name: "Bus",
